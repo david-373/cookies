@@ -1,0 +1,7 @@
+<form  [formGroup]="formControl">
+  <input type="text" formControlName="first">
+  <input type="text" formControlName="second">
+  <input type="submit" (click)="singIn()">
+</form>
+
+<button (click)="getFromCookie()">get</button>
